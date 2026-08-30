@@ -80,17 +80,21 @@ function copyContact(el) {
   const blink = document.querySelector('.hero__terminal-blink');
   if (!lines.length) return;
   lines.forEach((line, i) => {
-    const text = line.innerHTML;
-    line.innerHTML = '';
+    const html = line.innerHTML;
+    const tmp = document.createElement('div');
+    tmp.innerHTML = html;
+    const fullText = tmp.textContent;
+    line.textContent = '';
     line.style.overflow = 'hidden';
     setTimeout(() => {
       let j = 0;
       const interval = setInterval(() => {
-        if (j < text.length) {
-          line.innerHTML += text[j];
+        if (j < fullText.length) {
+          line.textContent += fullText[j];
           j++;
         } else {
           clearInterval(interval);
+          line.innerHTML = html;
           if (i === lines.length - 1 && blink) blink.style.display = 'inline-block';
         }
       }, 20);
