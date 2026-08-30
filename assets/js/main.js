@@ -75,31 +75,19 @@ function copyContact(el) {
   },{threshold:.5});
   document.querySelectorAll('.stat-item__number').forEach(el=>obs.observe(el));
 })();
-(function typeWriter() {
+(function terminalReveal() {
   const lines = document.querySelectorAll('.hero__terminal-line');
   const blink = document.querySelector('.hero__terminal-blink');
   if (!lines.length) return;
   lines.forEach((line, i) => {
-    const html = line.innerHTML;
-    const tmp = document.createElement('div');
-    tmp.innerHTML = html;
-    const fullText = tmp.textContent;
-    line.textContent = '';
-    line.style.overflow = 'hidden';
-    setTimeout(() => {
-      let j = 0;
-      const interval = setInterval(() => {
-        if (j < fullText.length) {
-          line.textContent += fullText[j];
-          j++;
-        } else {
-          clearInterval(interval);
-          line.innerHTML = html;
-          if (i === lines.length - 1 && blink) blink.style.display = 'inline-block';
-        }
-      }, 20);
-    }, i * 600);
+    line.style.opacity = '0';
+    line.style.transition = 'opacity .4s ease';
+    setTimeout(() => { line.style.opacity = '1'; }, i * 500);
   });
+  if (blink) {
+    blink.style.display = 'none';
+    setTimeout(() => { blink.style.display = 'inline-block'; }, lines.length * 500);
+  }
 })();
 (function initActiveNav() {
   const raw = window.location.pathname.replace(/^\//, '').replace(/index\.html$/, '').replace(/\/$/, '');
