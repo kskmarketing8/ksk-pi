@@ -1,0 +1,35 @@
+# ИТЦ КСК — справочная информация
+
+> Инженерно-Технический Центр «Качество Сибирского Конструктора».
+> Производство ГРЩ, ВРУ и систем автоматизации в Новосибирске с 2006 года.
+> 500+ проектов, 2000 м² цеха, 50+ сотрудников.
+
+## Основные страницы
+
+- Главная: https://sksnsk.com/
+- О компании: https://sksnsk.com/about/
+- Контакты и реквизиты: https://sksnsk.com/contacts/
+- Производство: https://sksnsk.com/production/
+
+## Решения
+
+- Обзор решений: https://sksnsk.com/solutions/
+- ГРЩ и ВРУ: https://sksnsk.com/solutions/grsh.html
+- Управление насосами: https://sksnsk.com/solutions/pumps.html
+- АСУ ТП: https://sksnsk.com/solutions/asutp.html
+- Вентиляция: https://sksnsk.com/solutions/ventilation.html
+- Модульные системы: https://sksnsk.com/solutions/modular.html
+- Электролаборатория: https://sksnsk.com/solutions/electrolab.html
+
+## Проекты
+
+- Реализованные проекты: https://sksnsk.com/cases/
+
+## Техническая библиотека
+
+- CAD-модели, каталоги, схемы: https://sksnsk.com/tech_lib/
+
+## Юридическая информация
+
+- Политика конфиденциальности: https://sksnsk.com/privacy.html
+- Пользовательское соглашение: https://sksnsk.com/terms.html

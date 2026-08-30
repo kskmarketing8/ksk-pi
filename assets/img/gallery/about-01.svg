@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#182434"/>
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#00bcd4" stroke-width="2"/>
+  <text x="600" y="390" fill="#e0e6f0" font-family="Consolas, monospace" font-size="44" text-anchor="middle">about-01 · команда</text>
+  <text x="600" y="450" fill="#8090a5" font-family="Consolas, monospace" font-size="24" text-anchor="middle">placeholder — замените на реальное фото</text>
+</svg>

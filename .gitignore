@@ -1,0 +1,13 @@
+dist/
+node_modules/
+*.svg1
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.bak
+*.swp
+*~
+.vscode/
+.idea/
+scripts/screenshots/
